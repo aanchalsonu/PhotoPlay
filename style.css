@@ -1,25 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-
-/* :root{
-    --prim-color : #30346b;
-    --sec-color: #666eb7;
-} */
-
 *{
     box-sizing: border-box;
 }
+
 div{
     display: inline;
 }
 body{
-    /* background-color: rgb(69, 63, 63) /*var(--prim-color) ; */
     font-family: 'Poppins', sans-serif;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden; */
     margin: 0px;
 }
 
@@ -32,7 +20,6 @@ button{
     cursor: pointer;
 }
 .nav{
-    /* cursor: pointer; */
     position: fixed;
     padding-left: 49px;
     padding: 60px;
@@ -46,32 +33,12 @@ button{
     transition: transform 0.3s ease-in-out;
 }
 
-.nav.visible{
-    top: 33px;
-    left: 89px;
-    transform: translateX(0);
-}
 
-/* .nav-black{
-    background-color: rgb(34 ,31, 31);
-    width: 50%;
-    max-width: 480px;
-    min-width: 320px;
-} */
 #form{
     margin-left: 0;
     margin-right: 13px;
 } 
-.nav-red{
-    background-color: black;
-    width: 39%;
-}
-.nav-white{
-    background-color: white;
-    width:230% ;
-    padding: 40px;
-    position: relative;
-}
+
 .text{
     text-transform: uppercase;
 }
@@ -81,44 +48,8 @@ button{
     background-color: transparent; 
     cursor: pointer;
     font-size: 20px;
-    /* margin: 20px;
-    padding: 12px;
-    width: 5%;
-    height: 5%; */
 }
 
-/* .open-btn{
-    position: fixed;
-    top: 33px;
-    left: 13px;
-}
-
-.close-btn{
-    opacity: 0.7;
-    position: absolute;
-    top: 35px ;
-    right: 218px;
-    cursor: pointer; */
-/* } */
-/* .list{
-    margin: 40px 0;
-    list-style-type: none;
-    padding-left: 35px;
-}
-.list li{
-    margin: 20px 0;
-}
-.list li a{
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.list ul{
-    list-style-type: none;
-    padding-left: 20px;
-} */
 header{
     padding: 0.5em;
     display: flex;
@@ -145,12 +76,6 @@ header{
     animation: shake .4s ease-in-out;
 }
 
-/* @keyframes shake {
-    25%{transform: translateX(4px);}
-    50%{transform: translate(-4px);}
-    75%{transform: translateX(4px);}
-} */
-
 
 @keyframes shake {
     0% {
@@ -172,14 +97,12 @@ header{
 
 .search:focus{
     outline: none;
-    /* background-color: #595fb7; */
+    
 }
 
 main{
     display: flex;
     flex-wrap: wrap;
-    /* margin: 10px;
-    padding: 82px; */
     position: absolute;
     z-index: -1;
 }
@@ -250,13 +173,6 @@ main{
     transform: translateY(0);
 }
 
-/* .fa.fa-search{ */
-    /* top: 10px; */
-    /* right: 20px; */
-    /* padding-right: 20px; */
-    /* font-size: 25px; */
-    /* border: 2px solid white; */
-/* } */
 
 .back-btn{
     padding: 12px;
@@ -268,14 +184,3 @@ main{
     cursor: pointer;
     font-size: 31px;
 }
-
-/* .next-btn{
-    padding: 12px;
-    position: absolute;
-    top: 21px;
-    left: 1470px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 31px;
-} */
